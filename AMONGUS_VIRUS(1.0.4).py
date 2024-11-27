@@ -73,9 +73,9 @@ def warning_prompt():
     """
     response = ctypes.windll.user32.MessageBoxW(
         None,
-        "This program will perform potentially harmful actions.\n"
-        "Do you want to proceed?",
-        "Warning",
+        "This program is malware and will trigger multiple Bluescreens. DO NOT RUN ON ACTUAL HARDWARE.\n"
+        "Do you want to proceed? THIS IS THE LAST WARNING",
+        "LAST WARNING",
         0x30 | 0x1  # MB_ICONWARNING | MB_YESNO
     )
     return response == 6  # IDYES is 6
