@@ -32,7 +32,7 @@ def show_windows_error():
         ctypes.windll.user32.MessageBoxW(
             None,
             "Mom, what's happening to my computer?",
-            "AMOGUS_VIRUS",
+            "AMOGUS_VIRUS by yt:itsverycool",
             0x10 | 0x0
         )
 
